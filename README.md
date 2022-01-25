@@ -15,8 +15,16 @@ The dataset is provided in the repository
 
 `(64, 64, 3)` -> `Convolution` ->  `MaxPooling` -> `Convolution` -> `MaxPooling` ->  `Flattening` -> `Dense` -> `Dropout` -> `Dense` -> `Dropout` -> SIGMOID
 
-* Convolution with `filters=32` and `kernel_size=3` and `activations=relu`
+* Convolution with `filters=32` and `kernel_size=3` and `activations='relu'`
 * MaxPooling with `pool_size=2` and `strides=2`
-* The first two Dense layer with `units=128` and `activation=`relu`
+* The first two Dense layer with `units=128` and `activation='relu'`
 * Dropout each first two layer (UPDATE!!!)
-* The final Dense layer with `units=1` and `activation=SIGMOID`
+* The final Dense layer with `units=1` and `activation=SIGMOID `
+
+
+## Predicted result
+When we predict on our custom images, the result is as follow.
+
+**Without dropout
+<img src="images/cat-dog-predict-result.png">
+![](images/cat-dog-predict-result.png)
