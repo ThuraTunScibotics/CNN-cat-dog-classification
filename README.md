@@ -28,3 +28,5 @@ When we predict on our custom images, the result is as follow.
 **Without dropout
 <img src="images/cat-dog-predict-result.png">
 ![](images/cat-dog-predict-result.png)
+![Without Dropout](https://github.com/ThuraTunScibotics/CNN-cat-dog-classification/blob/main/images/cat-dog-predict-result.png)
+![Without Dropout](https://github.com/ThuraTunScibotics/CNN-cat-dog-classification/blob/main/images/cat-dog-predict-result.png?raw=true)
