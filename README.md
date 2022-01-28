@@ -36,12 +36,10 @@ After traing the model with `100 epochs`
 ## Predicted result
 When we predict on our custom images, the result is as follow.
 
-**Without dropout and Dense layers units 128 neurons 
-It has four wrong prediction.
+**Without dropout and Dense layers units 128 neurons, It has four wrong prediction.
 <img src="images/cat-dog-predict-result.png">
 
-**With dropout and Dense layers units 256 neurons
-It just has two wrong prediction.
+**With dropout and Dense layers units 256 neurons, It just has two wrong prediction.
 <img src="images/cat-dog-predict-update.png">
 
 ## TO DO
