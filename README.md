@@ -28,7 +28,7 @@ Here is the model summary...
 ```
 model.fit(x = training_set, validation_data = test_set, epochs = 100)
 ```
-After traing the model with `100 epochs`
+After training the model with `100 epochs`
 | loss   | accuracy | val-loss | val-accuracy |
 | ------ | -------- | -------- | ------------ |
 | 0.0471 | 0.9835   | 0.8552   |   0.8105     |
